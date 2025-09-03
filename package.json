@@ -1,12 +1,11 @@
 {
   "name": "@saltcorn/plain-date",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "PlainDate: Date without time and timezone, drop-in compatible with Date",
-  "homepage": "https://github.com/saltcorn/saltcorn/tree/master/packages/plain-date",
+  "homepage": "https://github.com/saltcorn/plain-date",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saltcorn/saltcorn.git",
-    "directory": "packages/plain-date"
+    "url": "git+https://github.com/saltcorn/plain-date.git"
   },
   "scripts": {
     "test": "jest",
@@ -18,7 +17,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "esbuild": "^0.25.9"
+    "esbuild": "^0.25.9",
+    "jest": "29.7.0"
   },
   "author": "Tom Nielsen",
   "license": "MIT",
